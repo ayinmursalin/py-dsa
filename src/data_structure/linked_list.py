@@ -86,6 +86,7 @@ def run():
         node = Node(item)
         linked_list.tail_insert(node)
 
+    print("------------------------------------------------------------")
     linked_list.print()
 
     linked_list.head_insert(Node(10))
@@ -111,3 +112,4 @@ def run():
     node = linked_list.get_node(6)
     print("Get node of a data: 6")
     print("Node:", node)
+    print("------------------------------------------------------------")

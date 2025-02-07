@@ -35,3 +35,4 @@ def run():
     
     my_arrays.clear()
     print("Clear Array:", my_arrays)
+    print("------------------------------------------------------------")
